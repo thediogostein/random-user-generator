@@ -1,1 +1,3 @@
-# random-user-generator
+# Random User Generator
+
+Project using the https://randomuser.me/ api
