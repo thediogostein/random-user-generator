@@ -12,7 +12,6 @@ const userPhone = document.getElementById('user-phone');
 const getRandomUserBtn = document.getElementById('get-random-user');
 
 function createElements(user) {
-  console.log(user);
   //img
   const imgDiv = document.querySelector('.card__imgDiv');
   imgDiv.innerHTML = '';
@@ -129,7 +128,7 @@ const displayPhone = () => {
   userEmail.classList.remove('active');
   userAge.classList.remove('active');
   userCountry.classList.remove('active');
-  userPhone.classList.add('active');
+  userPhone.classList.remove('active');
   nameDiv.classList.remove('show');
   emailDiv.classList.remove('show');
   ageDiv.classList.remove('show');
